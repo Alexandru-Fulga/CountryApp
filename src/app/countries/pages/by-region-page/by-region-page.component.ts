@@ -12,7 +12,7 @@ import {Region} from "../../interfaces/region.type";
 export class ByRegionPageComponent implements OnInit{
 
   public countries: Country[] = [];
-  public regions: Region[] = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
+  public regions: Region[] = ['Africa', 'America', 'Asia', 'Europe', 'Oceania'];
   public selectedRegion?: Region;
   public isLoading: boolean = false;
 
