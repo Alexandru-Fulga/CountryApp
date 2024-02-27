@@ -1,0 +1,9 @@
+<!-- (keyup.enter)="onInputEnter(txtInput.value)" -->
+<input
+  type="text"
+  [placeholder]="placeholder"
+  [value]="initialValue"
+  class="form-control"
+  (keyup)="onKeyPress(txtInput.value)"
+  #txtInput
+>
